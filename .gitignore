@@ -1,35 +1,34 @@
-# Gradle files
+# Android build output and local configuration
 .gradle/
 build/
 .kotlin/
-
-# Local configuration file (sdk path, etc)
 local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
 captures/
 .externalNativeBuild/
 .cxx/
 *.aab
-*.apk
 output-metadata.json
 
-# IntelliJ
+# IDE and OS files
 *.iml
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+.DS_Store
 
-# Keystore files
+# Signing keys and local toolchain
 *.jks
 *.keystore
+/tools/android-sdk/
+/tools/android-home/
+/tools/sdk/
+/tools/pw/
+/tools/*.zip
+/tools/*.jar
+/tools/*.log
+/tools/repository.xml
+/tools/images.xml
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# Generated validation captures and browser-only demo
+/dist/Nokia3310-demo.mp4
+/dist/preview.png
+/dist/video-check.png
+/dist/Nokia3310.apk.idsig
